@@ -21,7 +21,7 @@ const generateTeam = team => {
                         Email: <a href="mailto:${manager.getEmail()}">${manager.getEmail()}</a>
                     </li>
                     <li>
-                        Office number: ${manager.getOfficeNumber()}
+                        Office: ${manager.getOffice()}
                     </li>
                 </ul>
             </div>
@@ -106,13 +106,15 @@ module.exports = team => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>My Team</title>
-        <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     </head>
     <body>
-        <header>
-            <h1>My Team</h1>
-        </header>
+    <header>
+    <nav class="navbar-nav bg-primary text-light text-center">
+      <h1 class="font-weight-bold">My Team</h1>
+    </nav>
+  </header>
         <main>
             ${generateTeam(team)}
         </main>
