@@ -1,11 +1,11 @@
 const fs = require('fs');
-const createPage = require('./src/pageTemplate');
-const pageTemplate = require('./src/pageTemplate');
+const createPage = require('./src/pageTemplate.js');
+const pageTemplate = require('./src/pageTemplate.js');
 const inquirer = require('inquirer');
-const Employee = require('./lib/employee');
-const Manager = require('./lib/manager');
-const Engineer = require('./lib/engineer');
-const Intern = require('./lib/intern');
+const Employee = require('./lib/employee.js');
+const Manager = require('./lib/manager.js');
+const Engineer = require('./lib/engineer.js');
+const Intern = require('./lib/intern.js');
 
 
 const managerQ = [
