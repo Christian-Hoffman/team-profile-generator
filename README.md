@@ -15,8 +15,7 @@ Engineers will have a link to their Github.\
 Interns will show where they went to school.
 
 ## Installation
-Save the index.js, lib folder, and src folder to your project.\
-In the index.js folder, on line 135, change where you would like your generated page to be created.
+Clone the repository/
 
 ## Usage Information
 Run 'npm i' in your terminal to install all dependencies.\
