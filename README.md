@@ -15,7 +15,7 @@ Engineers will have a link to their Github.\
 Interns will show where they went to school.
 
 ## Installation
-Clone the repository/
+Clone the repository
 
 ## Usage Information
 Run 'npm i' in your terminal to install all dependencies.\
